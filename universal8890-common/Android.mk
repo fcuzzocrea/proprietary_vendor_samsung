@@ -6,6 +6,9 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter herolte hero2lte,$(TARGET_DEVICE)),)
 
+
+ifeq ($(WITH_EXYNOS_BSP),)
+endif
 include $(CLEAR_VARS)
 
 EGL_LIBS := libGLES_mali.so libOpenCL.so libOpenCL.so.1 libOpenCL.so.1.1
