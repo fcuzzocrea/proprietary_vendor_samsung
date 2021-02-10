@@ -30,11 +30,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp6-lpsd-control.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gpscommon.rc \
+    vendor/samsung/universal8890-common/proprietary/lib/android.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.bluetooth.a2dp@1.0.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/audio.playback_record.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.playback_record.default.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/audio.primary.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.universal8890.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/audio.tms.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.tms.default.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libSoundAlive_VSP_ver315b_arm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSoundAlive_VSP_ver315b_arm.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SamsungRec_06002.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_06002.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_AlbumArt_ver105.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundAlive_play_plus_hal_ver126c.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_plus_hal_ver126c.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundAlive_play_plus_ver127a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_plus_ver127a.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundBooster_hal_ver700.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_hal_ver700.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundBooster_ver710.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver710.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
     vendor/samsung/universal8890-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
@@ -43,10 +58,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libhr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhr.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libpreprocessing_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpreprocessing_nxp.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libsamsungDiamondVoice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungDiamondVoice.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libsamsungSoundbooster_plus_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungSoundbooster_plus_legacy.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libsamsungpowersound.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungpowersound.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudiocoreutils.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
+    vendor/samsung/universal8890-common/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniapi.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -64,11 +88,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@3.4.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@2.4.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so \
+    vendor/samsung/universal8890-common/proprietary/lib64/android.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.bluetooth.a2dp@1.0.so \
+    vendor/samsung/universal8890-common/proprietary/lib64/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.bluetooth@1.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.vendor.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libSoundAlive_SRC192_ver205a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSoundAlive_SRC192_ver205a.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libSoundAlive_VSP_ver316a_ARMCpp_64bit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSoundAlive_VSP_ver316a_ARMCpp_64bit.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_SRC384_ver320.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_soundaliveresampler.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
@@ -77,9 +107,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libhr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhr.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudiocoreutils.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudioinfo.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
+    vendor/samsung/universal8890-common/proprietary/lib64/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtinyalsa.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
@@ -93,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@1.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@3.2.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@3.3.so \
@@ -117,6 +151,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi \
     vendor/samsung/universal8890-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
+    vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-armnn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-armnn \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
@@ -130,6 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/secril_config_svc:$(TARGET_COPY_OUT_VENDOR)/bin/secril_config_svc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.1-service-armnn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.1-service-armnn.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
@@ -142,6 +178,122 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.bin \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/AzControlParams_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/AzControlParams_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/LVAZFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/LVAZFS_Configuration.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/LVVEFS_Rx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/LVVEFS_Rx_Configuration.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/LVVEFS_Tx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/LVVEFS_Tx_Configuration.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/plmn_delta_chn.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_chn.bin \
@@ -192,6 +344,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libHMT.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHMT.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvverx.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_3DPosition_ver202.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengmode_client.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
@@ -221,6 +377,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.bio.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiosaplus_sec.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libgearvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libgearvr.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libmysound.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmysound.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libmyspace.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmyspace.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libplaybackrecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libplaybackrecorder.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsamsungSoundbooster_plus.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.2-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.3-impl.so \
@@ -234,10 +399,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengmode_client.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflicker.so \
