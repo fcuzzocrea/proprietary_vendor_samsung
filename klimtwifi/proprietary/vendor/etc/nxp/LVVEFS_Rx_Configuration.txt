@@ -1,8 +1,8 @@
-60
+60 
 19
 0
 1
-30
+30 
 LVVEFS_ABSOLUTE_PATH
 /vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_EARPIECE.txt
 /vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_SPEAKER.txt
