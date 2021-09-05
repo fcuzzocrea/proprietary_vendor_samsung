@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp6-lpsd-control.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gpscommon.rc \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/audio.playback_record.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.playback_record.default.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/audio.primary.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.universal8890.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/audio.tms.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.tms.default.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
@@ -37,6 +40,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SamsungRec_06002.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_06002.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_AlbumArt_ver105.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundAlive_play_plus_hal_ver126c.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_plus_hal_ver126c.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundAlive_play_plus_ver127a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_plus_ver127a.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundBooster_hal_ver700.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_hal_ver700.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_SoundBooster_ver710.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver710.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
     vendor/samsung/universal8890-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
@@ -48,10 +61,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libhr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhr.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwcutils.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libpreprocessing_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpreprocessing_nxp.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libsamsungDiamondVoice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungDiamondVoice.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
+    vendor/samsung/universal8890-common/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniapi.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libvirtualdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvirtualdisplay.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
@@ -94,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
+    vendor/samsung/universal8890-common/proprietary/lib64/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtinyalsa.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libvirtualdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvirtualdisplay.so \
@@ -208,6 +228,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/libHMT.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHMT.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengmode_client.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
@@ -240,6 +261,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.bio.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiosaplus_sec.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libgearvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libgearvr.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libmysound.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmysound.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libplaybackrecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libplaybackrecorder.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsamsungSoundbooster_plus.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.2-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.3-impl.so \
